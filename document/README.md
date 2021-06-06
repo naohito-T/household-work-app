@@ -1,4 +1,6 @@
-# thema
+# Introduction
+
+## thema
 
 二人で一つのアプリ
 家事分担も二人でやろう
@@ -13,6 +15,7 @@ household work
 
 
 ## 技術選定
+
 ReactNative
 TypeScript
 Expo
@@ -48,7 +51,8 @@ $ expo init household-work-app
     minimal (TypeScript)  same as minimal but with TypeScript configuration
 ```
 
-## use font
+## Use font
+
 [URL](https://fontmeme.com/ja/font-blackpink/)
 
 ## thema color
