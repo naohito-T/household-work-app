@@ -1,0 +1,14 @@
+{
+  "name": "apidoc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "ja",
+  "title": "household-work-document",
+  "description": "app document",
+  "plugins": ["theme-api"],
+  "pluginsConfig": {
+    "theme-api": {
+      "theme": "dark"
+    }
+  }
+}
