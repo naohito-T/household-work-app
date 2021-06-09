@@ -94,3 +94,12 @@ react-hookプラグイン追加
 $ yarn add -D eslint-plugin-react-hooks
 
 $ yarn add -D prettier eslint-plugin-prettier
+
+## husky lint-staged setup
+lint-stagedとhuskyを使い、git commitのタイミングでeslintによるチェックを実施し、エラーだったらコミットさせない設定をする。
+husky@4 versio4でないと動かない。
+
+```bash
+$ yarn add -D husky@4 lint-staged
+```
+
