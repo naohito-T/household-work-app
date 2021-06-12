@@ -97,9 +97,9 @@ $ yarn add -D prettier eslint-plugin-prettier
 
 ## husky lint-staged setup
 lint-stagedとhuskyを使い、git commitのタイミングでeslintによるチェックを実施し、エラーだったらコミットさせない設定をする。
-husky@4 versio4でないと動かない。
+husky@4 versio4でないと動かないためhusky ver4を導入
 
 ```bash
-$ yarn add -D husky@4 lint-staged
-```
+$yarn add -D husky@4 lint-staged
 
+```
