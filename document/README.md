@@ -103,3 +103,20 @@ husky@4 versio4でないと動かないためhusky ver4を導入
 $yarn add -D husky@4 lint-staged
 
 ```
+
+
+## storybookの設定
+
+後ほど記載
+
+# ディレクトリ構成 atomic designを採用
+
+## 環境別設定
+
+
+## 環境別設定
+
+## firebase設定
+
+
+## Jest設定
