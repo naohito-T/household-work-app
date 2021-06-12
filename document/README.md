@@ -113,8 +113,10 @@ $yarn add -D husky@4 lint-staged
 
 ## 環境別設定
 
+expo startで何を読み込んでいるのか。。？
+expo startをできないようにする。
+makeファイルで指定した環境コマンドを実行させ、その設定ファイルを読み込ませる方針
 
-## 環境別設定
 
 ## firebase設定
 

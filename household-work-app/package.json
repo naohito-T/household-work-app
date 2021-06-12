@@ -1,7 +1,9 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --config app.dev.json",
+    "start:staging": "expo start --config app.staging.json",
+    "start:production": "expo start --config app.production.json",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -14,6 +16,7 @@
     "storybook:build": "build-storybook -o ./storybookPublic"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "expo": "~41.0.1",
     "expo-status-bar": "~1.0.4",
     "react": "17.0.2",
