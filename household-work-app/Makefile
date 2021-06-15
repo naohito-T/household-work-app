@@ -1,8 +1,8 @@
 start:
-	expo start --config app.dev.json
+		expo start -c --config app.dev.json
 
 start stg:
-	expo start --config app.staging.json
+		expo start --config app.staging.json
 
 start pro:
-	expo start --config app.production.json
+		expo start --config app.production.json
