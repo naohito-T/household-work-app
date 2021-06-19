@@ -56,6 +56,7 @@ $ expo init household-work-app
 
 ## thema color
 
+white modeと dark modeぐらいには変更できるようにしようか
 ### #use
 
 dfbedd
@@ -109,7 +110,29 @@ $yarn add -D husky@4 lint-staged
 
 後ほど記載
 
-# ディレクトリ構成 atomic designを採用
+## ディレクトリ構成 atomic designを採用
+(参考URL)[https://note.com/tabelog_frontend/n/n4b8bcb44294c]
+
+一般的な責務一覧
+
+**Pages**
+・ページのデータをTemplates層に流し込む
+
+**Templates**
+・ページ全体のレイアウトを決める
+・Pagesの最上位
+・同一ページ内で1度しか使えない
+
+**Organisms**
+・サービスとして意味のある単位の塊
+・他のAtoms/Molecules/Organismsや純粋なHTMLで構成される
+・独立して成立するコンテンツを提供する
+
+**Molecules**
+・一つ以上のAtomsに依存したcomponent
+・ユーティリティ的な塊
+
+
 
 ## 環境別設定
 
@@ -126,7 +149,13 @@ makeファイルで指定した環境コマンドを実行させ、その設定�
 ## Android stadio 設定
 
 [url](https://qiita.com/krile136/items/47b2e2cf2a7e586b6da3)
+
+## entry point change
+
+[url](https://qiita.com/shinbey221/items/5b5d0040fe5c76c53ca8)
+
 ## login画面
 
 始める、
 
+## Home画面
