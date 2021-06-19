@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
+import { AppNavigator } from './navigation/AppNavigator';
 import { StatusBar } from 'expo-status-bar';
 import { RequestAPI } from './lib/api/http/RequestAPI';
 import firebase from 'firebase';
 import { firebaseConfig } from './lib/api/config/dev.firebase';
+import { registerRootComponent } from 'expo';
 
 import { HomePage } from './pages/home/HomePage';
 import { LoginPage } from './pages/login/LoginPage';
@@ -13,6 +15,7 @@ if (!firebase.apps.length) {
 }
 
 const App = () => {
+  // firebase
   // const iRequestAPI = new RequestAPI('hello');
   // const [tasks, setTasks] = useState < Promise<Tasks[]>([]);
   // useEffect(() => {
@@ -30,7 +33,8 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       {/* <HomePage /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <AppNavigator />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -46,3 +50,5 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+registerRootComponent(App);

@@ -159,3 +159,28 @@ makeファイルで指定した環境コマンドを実行させ、その設定�
 始める、
 
 ## Home画面
+
+
+## Routing
+
+```bash
+$ yarn add @react-navigation/native
+yarn add v1.22.10
+```
+
+expoのため以下も実行
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+stack navigaton
+
+```bash
+$ yarn add @react-navigation/stack
+```
+
+bottom-tabs
+```bash
+$ yarn add @react-navigation/bottom-tabs
+```
+
+## expo エントリーポイント変更
+[参考URL](https://zenn.dev/takanori_is/articles/organize-expo-project-structure)
