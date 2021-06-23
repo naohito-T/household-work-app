@@ -31,12 +31,11 @@ const App = () => {
   // ));
 
   return (
-    <SafeAreaView style={styles.container}>
+    <>
       {/* <HomePage /> */}
       {/* <LoginPage /> */}
       <AppNavigator />
-      <StatusBar style="auto" />
-    </SafeAreaView>
+    </>
   );
 };
 

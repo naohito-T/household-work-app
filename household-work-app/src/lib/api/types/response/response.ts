@@ -1,4 +1,8 @@
-export interface Tasks {
+export interface Task {
   name: string;
-  place: string;
+  contact: number;
+  complete: number;
+  image: string;
+  created: Date;
+  updated: Date;
 }

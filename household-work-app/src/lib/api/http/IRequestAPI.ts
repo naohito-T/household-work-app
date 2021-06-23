@@ -3,6 +3,7 @@ import { Dev } from '../types/response';
 export interface IRequestAPI {
   /**
    * Task一覧の取り込み
+   * 担当のidでrequestする
    */
-  fetchTasks(name: string, place: string): Promise<Dev.Tasks[]>;
+  fetchTasks(taskId: number): Promise<Dev.Task[]>;
 }
