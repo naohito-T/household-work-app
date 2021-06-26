@@ -5,12 +5,12 @@
 ## 一般的な責務
 
 ・サービスとして意味のある単位の塊。
-・他のAtoms/Molecules/Organismsや純粋なHTMLで構成される。
+・他の Atoms/Molecules/Organisms や純粋な HTML で構成される。
 ・独立して成立するコンテンツを提供する。
 
 ## このアプリでの責務
 
-・ドメインが入ったらOrganisms。
-・他に依存するコンポーネントがなかったとしても、ドメインが入った時点でOrganismsにする。
-・useContextによるContext接続可。
-・その機能のためのAPIを叩くのはここ。
+・ドメインが入ったら Organisms。
+・他に依存するコンポーネントがなかったとしても、ドメインが入った時点で Organisms にする。
+・useContext による Context 接続可。
+・その機能のための API を叩くのはここ。
