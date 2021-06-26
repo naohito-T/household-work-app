@@ -16,6 +16,8 @@
     "storybook:build": "build-storybook -o ./storybookPublic"
   },
   "dependencies": {
+    "@expo-google-fonts/noto-sans-jp": "^0.1.0",
+    "@expo-google-fonts/roboto": "^0.1.0",
     "@expo/vector-icons": "^12.0.5",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/bottom-tabs": "^5.11.11",
@@ -23,6 +25,7 @@
     "@react-navigation/stack": "^5.14.5",
     "dotenv": "^10.0.0",
     "expo": "~41.0.1",
+    "expo-font": "~9.1.0",
     "expo-status-bar": "~1.0.4",
     "firebase": "8.2.3",
     "react": "17.0.2",

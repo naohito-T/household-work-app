@@ -1,0 +1,1 @@
+export { NotoSansJP } from './font';

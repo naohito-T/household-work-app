@@ -1,5 +1,7 @@
 # Introduction
 
+## memo
+READMEにreact-native-linkと書かれているのはJavaやObject-Cで書かれたライブラリを利用できないExpoでは使用できない。
 ## thema
 
 二人で一つのアプリ
@@ -53,6 +55,19 @@ $ expo init household-work-app
 ## Use font
 
 [URL](https://fontmeme.com/ja/font-blackpink/)
+
+
+## expo custom font
+
+カスタムファントはexpoが提供しているとのこと。
+```bash
+$expo install expo-font
+
+・installed
+$expo install @expo-google-fonts/noto-sans-jp
+```
+
+[URL](https://qiita.com/Abbiscuit/items/875295ce021ea41e3243)
 
 ## thema color
 
@@ -132,8 +147,6 @@ $yarn add -D husky@4 lint-staged
 ・一つ以上のAtomsに依存したcomponent
 ・ユーティリティ的な塊
 
-
-
 ## 環境別設定
 
 expo startで何を読み込んでいるのか。。？
@@ -156,6 +169,10 @@ makeファイルで指定した環境コマンドを実行させ、その設定�
 
 ## ui 設定
 
+react-native-elements
+UI Kitten
+上記があるが今回はreact-native-elementsを採用
+
 ```bash
 $yarn add react-native-elements
 ```
@@ -171,7 +188,7 @@ $yarn add react-native-elements
 ## Routing
 
 ```bash
-$ yarn add @react-navigation/native
+$yarn add @react-navigation/native
 yarn add v1.22.10
 ```
 
@@ -181,13 +198,19 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 stack navigaton
 
 ```bash
-$ yarn add @react-navigation/stack
+$yarn add @react-navigation/stack
 ```
 
 bottom-tabs
+
 ```bash
-$ yarn add @react-navigation/bottom-tabs
+$yarn add @react-navigation/bottom-tabs
 ```
 
 ## expo エントリーポイント変更
 [参考URL](https://zenn.dev/takanori_is/articles/organize-expo-project-structure)
+
+
+## debugger 設定
+
+[参考URL](https://qiita.com/stranger1989/items/536d8adff88fcafa3ba1)

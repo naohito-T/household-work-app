@@ -6,6 +6,7 @@ import { RequestAPI } from './lib/api/http/RequestAPI';
 import firebase from 'firebase';
 import { firebaseConfig } from './lib/api/config/dev.firebase';
 import { registerRootComponent } from 'expo';
+import { RootContext } from './context';
 
 import { HomePage } from './pages/home/HomePage';
 import { LoginPage } from './pages/login/LoginPage';
@@ -14,7 +15,7 @@ if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
 
-const App = () => {
+const App: React.FC = () => {
   // firebase
   // const iRequestAPI = new RequestAPI('hello');
   // const [tasks, setTasks] = useState < Promise<Tasks[]>([]);
@@ -34,6 +35,7 @@ const App = () => {
     <>
       {/* <HomePage /> */}
       {/* <LoginPage /> */}
+
       <AppNavigator />
     </>
   );
