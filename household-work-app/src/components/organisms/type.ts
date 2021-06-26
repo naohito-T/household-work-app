@@ -3,11 +3,12 @@ export interface TaskComplite {
 }
 
 export interface Task {
-  name: string;
+  task_name: string;
+  user: number;
+  owner: number;
   contact: number;
   complete: TaskComplite;
   created: Date;
   updated: Date;
-  // 初期値がない場合はフリーアイコン
-  image_url?: string;
+  image_url?: string; // 初期値がない場合はフリーアイコン
 }

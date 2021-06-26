@@ -154,6 +154,13 @@ makeファイルで指定した環境コマンドを実行させ、その設定�
 
 [url](https://qiita.com/shinbey221/items/5b5d0040fe5c76c53ca8)
 
+## ui 設定
+
+```bash
+$yarn add react-native-elements
+```
+
+・react-native-elementsで構築
 ## login画面
 
 始める、
