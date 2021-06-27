@@ -4,14 +4,14 @@ import {
   NavigationContext,
 } from '@react-navigation/native';
 
-import { HomePage } from '../pages/home/HomePage';
+import { TaskPage } from '../pages/task/TaskPage';
 
 // ここでpage遷移を作成
 
 export const AppNavigator: React.FC = (props) => {
   return (
     <NavigationContainer>
-      <HomePage />
+      <TaskPage />
     </NavigationContainer>
   );
 };

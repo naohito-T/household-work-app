@@ -1,15 +1,29 @@
 import React, { useContext } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { APIProvider, TestContext } from '../../context/APIContext';
+import { Task } from './type';
 
-export const TodayTask: React.FC<typeof TestContext> = () => {
+interface Props {
+  Task?: Task[];
+}
+
+export const TodayTask: React.FC<Props> = (props: Props) => {
   const message = useContext(TestContext);
   console.log(message);
 
   return (
     <View>
-      <View></View>
-      <Text>今日やる家事はありません</Text>
+      <View style={styles.container}>
+        <Text>{props.Task ?? '本日のタスクはありません。'}</Text>
+      </View>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItem: 'center',
+    justifyContent: 'center',
+  },
+});

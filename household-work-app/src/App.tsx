@@ -8,9 +8,6 @@ import { firebaseConfig } from './lib/api/config/dev.firebase';
 import { registerRootComponent } from 'expo';
 import { RootContext } from './context';
 
-import { HomePage } from './pages/home/HomePage';
-import { LoginPage } from './pages/login/LoginPage';
-
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }

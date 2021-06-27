@@ -6,7 +6,7 @@ interface Props {
 }
 
 // urlを今後分岐できるようにする。
-
+// ここはpasswordを忘れましたか?などのbar
 export const AnkerTag: React.VFC<Props> = (props: Props) => {
   return (
     <TouchableOpacity>

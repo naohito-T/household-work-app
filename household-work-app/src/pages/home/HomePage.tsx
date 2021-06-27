@@ -1,25 +1,19 @@
-import React, { useState } from 'react';
-import { StyleSheet } from 'react-native';
-import {} from '@expo/vector-icons';
-import Icon from 'react-native-vector-icons/FontAwesome';
-import { Input } from 'react-native-elements';
+import React from 'react';
+import {} from 'react-native';
 import { HomeTemplate } from '../../components/templates/home/HomeTemplate';
 
 // api接続箇所はここよ
 // ここはあくまでもtemplateにデータ作成して渡す。
 // ここは分岐
+
+// 一週間分のdayを出す
+
+const day = new Date();
+
 export const HomePage: React.FC = () => {
   return (
     <>
-      <HomeTemplate headerMessage="home" />
+      <HomeTemplate nowDay={day} />
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});

@@ -2,6 +2,16 @@
 
 ## memo
 READMEにreact-native-linkと書かれているのはJavaやObject-Cで書かれたライブラリを利用できないExpoでは使用できない。
+
+React TypeScript型定義基本
+[URL](https://zenn.dev/ogakuzuko/articles/react-typescript-for-beginner)
+
+ReactNative ライブラリ選定について
+[URL](https://qiita.com/kaba/items/569aafd80889bb5d9328)
+
+Firebase DB設計について
+[URL](https://qiita.com/samuraikun/items/dfe7d1081f62359b0dcd)
+
 ## thema
 
 二人で一つのアプリ
