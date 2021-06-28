@@ -5,7 +5,7 @@ interface Props {
   numberOfLines: number;
   placeText?: string;
   filedMessage?: string;
-  completion: () => void;
+  completion?: () => void;
 }
 
 export const TextArea: React.FC<Props> = (props: Props) => {
