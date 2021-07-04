@@ -8,6 +8,10 @@
     "start": "npm run shell",
     "test": "jest",
     "deploy": "firebase deploy --only functions",
+    "dbreset": "firebase firestore:delete --all-collections --project dev-household-app",
+    "dbreset:publishers": "firebase firestore:delete -y --shallow publishers --project dev-household-app",
+    "dbseed": "npm run dbseed:publishers",
+    "dbseed:publishers": "node lib/commands/dbseed.js publishers seeds/publishers.tsv",
     "logs": "firebase functions:log"
   },
   "engines": {

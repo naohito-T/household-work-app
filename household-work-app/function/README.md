@@ -1,10 +1,24 @@
 # seed start
 
+node 10系で実施してください。
+node 10系に切り替えたあと以下コマンドでfirebase-toolをインストールしてください
+
+```bash
+$npm install -g firebase-tools
+```
+
 cmd + shift + b で tsc watch(tsconfig.json)を起動
 起動後、エラーが走らなけば OK
 
 ```bash
 $node lib/commands/dbseed.js [ドキュメント名] seeds/[tsvファイル名]
+```
+
+## seed delete
+
+```bash
+projectIDを確認する。
+$firebase projects:list
 ```
 
 ## example
