@@ -1,7 +1,7 @@
 # seed start
 
-cmd + shift + bでtsc watch(tsconfig.json)を起動
-起動後、エラーが走らなけばOK
+cmd + shift + b で tsc watch(tsconfig.json)を起動
+起動後、エラーが走らなけば OK
 
 ```bash
 $node lib/commands/dbseed.js [ドキュメント名] seeds/[tsvファイル名]
@@ -13,11 +13,11 @@ $node lib/commands/dbseed.js [ドキュメント名] seeds/[tsvファイル名]
 $node lib/commands/dbseed.js publishers seeds/publishers.tsv
 ```
 
-## node version固定
-
+## node version 固定
 
 ## 注意
-vscodeでfunctionディレクトリを起点に開いてください。
+
+vscode で function ディレクトリを起点に開いてください。
 
 ## ドキュメント削除
 
@@ -25,7 +25,7 @@ vscodeでfunctionディレクトリを起点に開いてください。
 
 ## memo
 
-環境整備にあたって、firebaseのloggerのindex.d.tsを変更している
+環境整備にあたって、firebase の logger の index.d.ts を変更している
 宣言が見つからないとのことで書き換えてる
 
 ```bash
@@ -53,5 +53,3 @@ export { Logger, LogLevel, LogHandler } from './src/logger';
 
 
 ```
-
-
