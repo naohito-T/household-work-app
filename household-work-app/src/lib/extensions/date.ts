@@ -40,28 +40,28 @@
  */
 
 /* 一週間分のdayを出す */
+export {};
+// interface DateProps {
+//   year: number;
+//   month: number;
+//   day: number;
+//   wd: readonly ['日', '月', '火', '水', '木', '金', '土'];
+// }
 
-interface DateProps {
-  year: number;
-  month: number;
-  day: number;
-  wd: readonly ['日', '月', '火', '水', '木', '金', '土'];
-}
+// const wd = ['日', '月', '火', '水', '木', '金', '土'] as const;
 
-const wd = ['日', '月', '火', '水', '木', '金', '土'] as const;
+// const date = new Date();
+// const year = date.getFullYear();
+// const month = date.getMonth() + 1;
+// const day = date.getDate();
 
-const date = new Date();
-const year = date.getFullYear();
-const month = date.getMonth() + 1;
-const day = date.getDate();
-
-/**
- * @desc 今日の年月日と曜日を格納しているオブジェクト
- * @type Object
- */
-export const WeekDay: DateProps = {
-  year,
-  month,
-  day,
-  wd,
-} as const;
+// /**
+//  * @desc 今日の年月日と曜日を格納しているオブジェクト
+//  * @type Object
+//  */
+// export const WeekDay: DateProps = {
+//   year,
+//   month,
+//   day,
+//   wd,
+// } as const;

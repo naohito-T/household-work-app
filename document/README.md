@@ -3,6 +3,11 @@
 ## memo
 READMEにreact-native-linkと書かれているのはJavaやObject-Cで書かれたライブラリを利用できないExpoでは使用できない。
 
+
+react-native firebaseへのデプロイ方法
+[URL](https://rennnosukesann.hatenablog.com/entry/2018/05/29/235733)
+
+
 React TypeScript型定義基本
 [URL](https://zenn.dev/ogakuzuko/articles/react-typescript-for-beginner)
 
@@ -127,7 +132,16 @@ husky@4 versio4でないと動かないためhusky ver4を導入
 
 ```bash
 $yarn add -D husky@4 lint-staged
+```
 
+## package.json format setup
+・package.jsonをフォーマットしてくれる。
+
+```bash
+$yarn add -D sort-package-json
+
+format
+$yarn format:package or $npm run format:package
 ```
 
 

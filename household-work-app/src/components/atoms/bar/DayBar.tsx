@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const day = new Date();
+// const day = new Date();
 
 interface Props {
   nowDay: Date;
@@ -9,9 +9,7 @@ interface Props {
 
 export const DayBar: React.FC<Props> = (props: Props) => {
   return (
-    <View style={styles.container}>
-      <Text>{props.nowDay}</Text>
-    </View>
+    <View style={styles.container}>{/* <Text>{props.nowDay}</Text> */}</View>
   );
 };
 
