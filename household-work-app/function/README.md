@@ -67,3 +67,19 @@ export { Logger, LogLevel, LogHandler } from './src/logger';
 
 
 ```
+
+## firebase function deploy
+
+deployは無料から従量課金制に変更しないとできない。
+試す場合にはlocalで実行する。
+
+```bash
+production
+$firebase deploy --only functions
+
+local
+$ GOOGLE_APPLICSTION_CREDENTIALS=./src/[firebase keyfile] firebase serve --only functions
+```
+
+## env 周りの話
+[URL](https://gist.github.com/kenmori/ef48f09e9f1bfb30fe34cc11db0031d6)
